@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+body{
+    height: 100vh;
+    width: 100%;
+}
+ul{
+    margin-top: 1%;
+    height:20px;
+    width:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+}
+header{
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+nav button:hover{
+    color: #d3d7d3;
+    text-align: center;
+    font-size: 19px;
+    background-color: #347943;
+    font-family: 'Ubuntu Mono', monospace;
+}
+button{
+    padding: 5px;
+    margin: 0 10px;
+    border:0;
+    border-radius: 5px;
+}
+nav{
+    position: relative;
+    bottom: 90px;
+    margin-right: 10px;
+}
+h1{
+    position: relative;
+    bottom: 30px;
+    color: #347943;
+    margin-right: 10px;
+}
+.section1{
+    display: flex;
+    justify-content: space-around;
+}
+.section2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.video{
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 10px rgb(128, 128, 128), 
+        -10px 8px 15px gray, 10px 8px 15px gray;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    margin-top: 15%;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 300;
+}
+.video:hover{
+    width: 250px;
+    background-color: #3479438e;
+    border: 3px solid #d3d7d3;
+}
+.main{
+margin-top: -30px;
+margin-bottom: 30px;
+}
+.video img{
+    margin:0 auto;
+}
+.start{
+margin-top: 15%;
+color: #d3d7d3;
+background-color: #347943;
+justify-content: flex-end;
+}

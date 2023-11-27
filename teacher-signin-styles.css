@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+*{
+    margin:0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+header{
+    width:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+ul{
+    margin-top: 1%;
+    height:20px;
+    width:auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+    position: relative;
+    bottom:80px;
+}
+button:hover{
+    color: #d3d7d3;
+    text-align: center;
+    font-size: 19px;
+    background-color: #347943;
+    font-family: 'Ubuntu Mono', monospace;
+}
+button{
+padding: 5px;
+margin: 0 10px;
+border:0;
+border-radius: 5px;
+}
+fieldset{
+    margin: 5% auto;
+    height:200px;
+    width:300px;
+    border-radius: 25px;
+    background-color: #34794373;
+    border:0;
+    box-shadow: 0px 8px 10px rgb(128, 128, 128), 
+        -10px 8px 15px gray, 10px 8px 15px gray;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5em;
+}
+input{
+    margin-top: 12px;
+    padding: 0.6em;
+    border-radius: 5px;
+    border:1px solid #535354;
+    outline: 0;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+input::placeholder{
+    color:#2f2f2fb0;
+    font-family: 'Source Code Pro', monospace;
+}
+h1{
+font-size: 1.9em;
+color: #347943;
+margin-bottom: 90px;
+font-family: 'Quicksand', sans-serif;
+}
+h3{
+    text-align: center;
+    font-style: bold;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: 'Ubuntu Mono', monospace;
+    color: #36533b;
+}
+input[type="submit"]{
+    background-color: #6d9b75c9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type="submit"]:hover{
+    color: #535354;
+    background-color: #65e48177;
+}
+input[type="submit"]:active{
+    color: #ff0000;
+    background-color: #65e48177;
+}
+.logo{
+    margin-bottom: 90px;
+    margin-left: 65%;
+}
